@@ -27,7 +27,7 @@ class PriorityQueueTest {
     static Stream<Arguments> provideParameter() {
         return Stream.of(
                 // org_arr, sorted_arr
-                arguments((Object) new Object[] { 2,  1,  3 }, (Object) new Object[] {  1,  2,  5 }),
+                arguments((Object) new Object[] { 2,  1,  5 }, (Object) new Object[] {  1,  2,  5 }),
                 arguments((Object) new Object[] {-1, 10, -3 }, (Object) new Object[] { -3, -1, 10 }),
                 arguments((Object) new Object[] {-4, 0, 0, 10 }, (Object) new Object[] { -4, 0, 0, 10 }),
                 arguments((Object) new Object[] {1000, -1000, -3, 12345 }, (Object) new Object[] { -1000, -3, 1000, 12345 }),

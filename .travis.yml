@@ -1,3 +1,11 @@
 language: java
 jdk:
 - oraclejdk8
+
+build-with-container-based-infrastructure
+sudo: false
+
+cache:
+  directories:
+  - $HOME/.m2
+  - $HOME/.gradle  

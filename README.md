@@ -1,2 +1,2 @@
 # 0856015
-https://travis-ci.com/LR0455/0856015.svg?branch=master
+https://travis-ci.com/github/LR0455/0856015

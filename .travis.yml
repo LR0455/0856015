@@ -2,6 +2,8 @@ dist: bionic
 
 language: java
 
+sudo: false
+
 script: 
   - "mvn test"
 
